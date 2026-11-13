@@ -1,0 +1,59 @@
+{
+  "study_id": "cacox_original_head_study_20261029_v1",
+  "output": "results/cacox_original_head_study/20261029_v1",
+  "bundles": "results/cacox_tree_selected29_integrated_20261028_v1/bundles",
+  "source_contract": "results/cacox_tree_selected29_integrated_20261028_v1/config.json",
+  "source_workbook": "data/raw/20261023v1-day26.xlsx",
+  "assignments": "results/reference/traditional_cox/legacy_7vars/outer_assignments.csv",
+  "reference_original": "results/cacox_tree_selected29_integrated_20261028_v1",
+  "reference_rcs": "results/cacox_vs_rcs_selected29_optimization_20261028_v1/matched_rcs_ridge",
+  "reference_metrics": "results/cacox_vs_rcs_selected29_optimization_20261028_v1/final_comparison/metrics_pooled.csv",
+  "common": {
+    "num_blocks": 2,
+    "dropout": 0.15,
+    "num_cross_layers": 2,
+    "num_heads": 4,
+    "learning_rate": 7e-06,
+    "weight_decay": 0.01,
+    "max_epochs": 3000,
+    "patience": 150,
+    "gradient_clip": 100.0,
+    "device": "cuda",
+    "scale": "robust",
+    "hidden": 96,
+    "seed_base": 20261022,
+    "folds": 5,
+    "imputations": 20,
+    "times": [
+      365,
+      730,
+      1095
+    ],
+    "rmst_horizon": 1095
+  },
+  "control": {
+    "model_id": "O0_original_cox",
+    "kind": "cox",
+    "bins": 1
+  },
+  "candidate": {
+    "model_id": "D0_original_logistic_hazard",
+    "kind": "discrete",
+    "bins": 6
+  },
+  "candidates": [],
+  "protocol": {
+    "selection_rule": "Boruta non-rejected UNION Cox-LASSO lambda.min; frequency >=10/20",
+    "selection_scope": "same outer-development variable lists held fixed in inner training",
+    "ranking_loss": false,
+    "spline_branch": false,
+    "search_enabled": false,
+    "new_head": "original last Linear(hidden,1) replaced by Linear(hidden,6); training-only initial hazard bias",
+    "validation_scope": "same-cohort continuing development; conditional intervals, not optimism corrected"
+  },
+  "target": {
+    "pooled_gain_min": 0.02,
+    "paired_gain_min": 0.02,
+    "paired_models_min": 80
+  }
+}

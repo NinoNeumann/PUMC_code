@@ -1,0 +1,76 @@
+CACox（ES）敏感性分析：Windows + NVIDIA 使用说明
+
+一、包含的内容
+五个分支分别独立执行10次重复×5折：完整病例、eGFR已观测、肾脏受累状态已观测、
+分型明确且包含EGPA、分型明确且排除EGPA。完整病例无插补；其余MICE20次、60轮。
+另含主分析CACox（ES）原始折外预测的MPA/GPA亚组评价，不在亚组内重训。
+评价指标为Harrell C-index、配对差值及条件性95%区间；未计算AUC/IBS/校准/DCA。
+本包不包含RCS-ridge模型拟合。LASSO Cox仍作为原定变量筛选方法，属于CACox流程。
+
+二、先准备环境
+1. 安装64位Python 3.12（包含Python Launcher，即py命令）与64位R。
+   本机验证使用Python3.12、R4.5.2；R包参考版本：mice3.19.0、survival3.8.3、
+   ranger0.18.0、glmnet5.1。安装程序会记录实际版本；跨系统/版本不承诺数值逐位相同。
+2. 安装或更新适合本机NVIDIA显卡的驱动。默认安装PyTorch2.7.1 CUDA12.8构建。
+   官方wheel来源：https://download.pytorch.org/whl/cu128/torch/
+   不要求使用本Mac的环境目录；.venv在Windows本机重新创建。
+3. 把整个文件夹解压到例如 D:\CACox\cacox_es_sensitivity_portable_20261104。
+   必须先解压，不能直接在ZIP内部运行。文件夹、input、code、vendor须一起保留。
+   建议使用短路径；程序也会核验空格路径与相对路径。
+4. 本包带原始分析数据与主模型折外预测，含患者研究记录，仅在获授权的电脑上保管。
+   训练和评价在本机运行，程序不上传这些数据。
+
+三、按顺序双击
+01_setup_windows.cmd
+  创建Python虚拟环境，安装固定Python依赖和CUDA PyTorch，安装缺少的R包。
+  此步骤需要联网下载软件；不上传分析数据。
+02_check_and_validate_windows.cmd
+  检查CUDA前向/梯度；运行小规模合成数据训练、权重回放及断点验证；建立正式分折计划；
+  计算原主模型MPA/GPA亚组结果。合成验证不会成为正式临床结果。
+03_run_windows.cmd
+  正式运行全部五分支。默认2个R数据任务和1个GPU训练任务并行。
+  完成250个CACox外折后自动严格汇总；预测不齐时不会输出伪完整分析。
+04_status_windows.cmd
+  查看各分支数据准备与CACox完成折数。
+05_stop_windows.cmd
+  请求停止当前运行；已完成阶段留在磁盘。再次双击03可续跑。
+
+四、命令行等价用法（在解压根目录运行）
+  .venv\Scripts\python.exe run.py check --device cuda
+  .venv\Scripts\python.exe code\cacox_cpu_validate.py --neural-device cuda --output validation\cuda_target
+  .venv\Scripts\python.exe run.py init --device cuda
+  .venv\Scripts\python.exe run.py subgroups
+  .venv\Scripts\python.exe run.py all --device cuda --data-workers 2 --resume
+  .venv\Scripts\python.exe run.py status
+  .venv\Scripts\python.exe run.py stop
+  .venv\Scripts\python.exe run.py aggregate
+只运行首折作正式规模试运行（使用独立输出目录）：
+  .venv\Scripts\python.exe run.py all --device cuda --branches complete_case --ordinals 1 --run-root run_trial
+若找不到R，可在上述命令末尾追加：
+  --rscript "C:\Program Files\R\R-4.5.2\bin\Rscript.exe"
+也可设置环境变量CACOX_RSCRIPT为实际Rscript.exe路径。
+
+五、输出与恢复
+run/branches/<分支>/repeatXX_foldYY/：该折插补、筛选、编码、权重、预测、完成标记。
+run/progress.json及run/logs/：实时进度和错误日志。
+run/results/subgroup_original_oof/：主模型MPA/GPA亚组。
+run/results/final_10x5_cacox_es/：全部250折完成后的正式敏感性汇总。
+run/EXECUTION_CONFIG.json及各阶段manifest：冻结代码、输入、设备和软件版本。
+输入/代码变化、环境或设备改变会拒绝把新旧训练结果混在同一run目录中。
+更换设备或环境应使用全新的 --run-root run_cuda_new；不要复制本Mac正在运行的权重覆盖。
+电脑持续接电、避免睡眠可保证连续计算。停止时未完成阶段可能需要重算。
+
+六、与本Mac运行的关系及验证范围
+这是独立可迁移版本，从冻结原始数据与原外层分折开始重新运行。
+没有把本Mac正在写入的中间结果、进程锁、RCS结果或虚拟环境装入本包。
+神经网络可使用CUDA/MPS/CPU；损失计算保留在CPU并将梯度传回网络所在设备。
+原始Cox损失使用float32，共享模型损失使用float64；XGBoost树与统计计算也在CPU。
+CUDA路径已经接入，但本Mac没有NVIDIA设备，因此尚未在真实Windows/CUDA上实测。
+必须通过02的目标电脑验证再开始03；CUDA不可用时不会悄悄改为CPU长时间运行。
+CPU与移目录验证结果放在validation/；科学训练上限和早停未为加速而缩短。
+
+官方安装参考
+Python：https://www.python.org/downloads/windows/
+R Windows：https://cran.r-project.org/bin/windows/base/
+R Windows FAQ：https://www.stat.ethz.ch/CRAN/bin/windows/base/rw-FAQ.html
+PyTorch CUDA2.7.1 wheel：https://download.pytorch.org/whl/cu128/torch/

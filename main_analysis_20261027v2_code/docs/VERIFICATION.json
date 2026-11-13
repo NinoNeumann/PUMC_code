@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "copied_files_verified_against_source": 151,
+  "python_files_syntax_checked": 98,
+  "patient_data_model_weights_or_archives_copied": false,
+  "formal_manifest_source_entries": 553,
+  "formal_code_entries_matched": 41,
+  "r_files_syntax_checked": 34
+}

@@ -1,0 +1,108 @@
+{
+  "format": "cacox-minimal-scientific-vendor-v1",
+  "full_original_repository_required": false,
+  "vendored": {
+    "original_network.py": {
+      "original_path": "experiments/cacox_original_head_study/src/cacox_original_head_study/original_network.py",
+      "sha256": "6a9057c009106bcc60ce717494973fd4732f839d1a16798eaf3ddd316cc89cac",
+      "unmodified": true
+    },
+    "tabm_backend.py": {
+      "original_path": "experiments/cacox_tabm_cox/tabm_backend.py",
+      "sha256": "d36231afefc504b56af93ecf0aac231402859db745250ae4db22f34464376554",
+      "unmodified": true
+    },
+    "additive_model.py": {
+      "original_path": "experiments/cacox_additive_prototype/model.py",
+      "sha256": "7ceeadf6abaf70394c2458d10c4f846a89aec070da3e6f92daa01288c3267d40",
+      "unmodified": true
+    },
+    "pair_loss.py": {
+      "original_path": "experiments/cacox_rank_objective_prototype/pair_loss.py",
+      "sha256": "b9e36059d67320a2ece2a9b38d9ad1c78634d2cf020eec5030cf11698d88466f",
+      "unmodified": true
+    },
+    "cacox_encoder/numeric_encoder.py": {
+      "original_path": "experiments/cacox_original_head_study/src/cacox_original_head_study/_numeric_encoder.py",
+      "sha256": "44664752e0aafddfbbf3f4c7f012819c6d4c10541d20d1f508cf5a53e98baef6",
+      "unmodified": true
+    },
+    "cacox_encoder/schema29.py": {
+      "original_path": "experiments/cacox_original_head_study/src/cacox_original_head_study/schema29.py",
+      "sha256": "bb308891046d9656143cc6d972eaa58a73b9d2d392f4eb94ce37df0f281ef103",
+      "unmodified": true
+    },
+    "cacox_encoder/__init__.py": {
+      "original_path": null,
+      "sha256": "ec03da0004146f5350fc59e670ac6c6dbcf892bdb5dcfd1dc57eff97c215c47e",
+      "unmodified": false
+    },
+    "reference/tree_functions.py": {
+      "original_path": "experiments/cacox_cuda_pilot/cuda_models.py",
+      "original_sha256": "95c2af01b0b7609f8118fab8adcabec3326e2890886a54a112faa0031df79edf",
+      "sha256": "d57e939a8195ca41a7486251dcddfaf40d96959849263241fe937af92913bcc9",
+      "functions": [
+        "sync",
+        "comparable_pairs",
+        "rank_gradient",
+        "fit_rank"
+      ],
+      "unmodified_function_bodies": true
+    },
+    "reference/original_training_fit.py": {
+      "original_path": "experiments/cacox_original_head_study/src/cacox_original_head_study/training.py",
+      "original_sha256": "b5029b4749b04e5ed29c849da6d4e112f0152aade4d4ec58aede8cc06ff093c8",
+      "sha256": "e03a9fba423280565d286f13c47704474df146276bb75ee539acb6069c3492e4",
+      "functions": [
+        "fit"
+      ],
+      "unmodified_function_bodies": true
+    },
+    "reference/rank_fit.py": {
+      "original_path": "experiments/cacox_shared_rank_objective/backend.py",
+      "original_sha256": "599a4dea9c0b9328a659b123318cf044a4feb86b2da9b8c669cc15359c3a5105",
+      "sha256": "a3d8901ea4cd7aa8f047995318b453f705e15d463a3b2eb71b2ab5aff222adfa",
+      "functions": [
+        "fit"
+      ],
+      "unmodified_function_bodies": true
+    },
+    "reference/additive_fit.py": {
+      "original_path": "experiments/cacox_grouped_additive/backend.py",
+      "original_sha256": "30f2b5d96bc0964c658accd80965d36aaaa7bd13e88e6fd1c91aac1116dc615b",
+      "sha256": "9f7e96bca91a89b78c3f18a7498544100897f116226968de6fda61fa971e148a",
+      "functions": [
+        "fit"
+      ],
+      "unmodified_function_bodies": true
+    },
+    "reference/joint_fit.py": {
+      "original_path": "experiments/cacox_joint_score_finetune/backend.py",
+      "original_sha256": "4935ced6aa2abb8dab5196abe77da4583edbafc01508c64c7bacb82f75f0d220",
+      "sha256": "b0b973e99fc0973c880ba04b3943c7d6938ac51e03af2e2c5ef2b15f51d3806f",
+      "functions": [
+        "fit"
+      ],
+      "unmodified_function_bodies": true
+    }
+  },
+  "reference_function_files": {
+    "experiments/cacox_cuda_pilot/cuda_models.py": "reference/tree_functions.py",
+    "experiments/cacox_original_head_study/src/cacox_original_head_study/training.py": "reference/original_training_fit.py",
+    "experiments/cacox_shared_rank_objective/backend.py": "reference/rank_fit.py",
+    "experiments/cacox_grouped_additive/backend.py": "reference/additive_fit.py",
+    "experiments/cacox_joint_score_finetune/backend.py": "reference/joint_fit.py"
+  },
+  "original_reference_sha256": {
+    "experiments/cacox_original_head_study/configs/study_v1.json": "989d0ea93ba98b306923b7768db53fd7dc8b6f8032dd3788668426c069115a74",
+    "experiments/cacox_original_head_study/src/cacox_original_head_study/training.py": "b5029b4749b04e5ed29c849da6d4e112f0152aade4d4ec58aede8cc06ff093c8",
+    "experiments/cacox_cuda_pilot/cuda_models.py": "95c2af01b0b7609f8118fab8adcabec3326e2890886a54a112faa0031df79edf",
+    "experiments/cacox_shared_rank_objective/backend.py": "599a4dea9c0b9328a659b123318cf044a4feb86b2da9b8c669cc15359c3a5105",
+    "experiments/cacox_joint_score_finetune/backend.py": "4935ced6aa2abb8dab5196abe77da4583edbafc01508c64c7bacb82f75f0d220",
+    "experiments/cacox_grouped_additive/backend.py": "30f2b5d96bc0964c658accd80965d36aaaa7bd13e88e6fd1c91aac1116dc615b",
+    "experiments/cacox_heterogeneous_blend/backend.py": "0e83841497233a5d36119ffd3ccb227a48bcf0b5b96fcbf2f1914aed78ce1e85",
+    "experiments/cacox_heterogeneous_blend/blend.py": "42c22d83ae5d993f8db6b1bdbd00b8e8404ea864f9307b30f40bbebd596976d5",
+    "experiments/cox_e_selected_10x5/run_i20.py": "95132c71403b7aea104fc57c1c6fd95eb1d79bb2c27cb9cc0dc135076085c0bc",
+    "experiments/cox_e_selected_10x5/run_e_selected.py": "2367b413c59dd3d91e0184ef309d865ede6f6072d9871364f0e59c3e3ee50211"
+  }
+}

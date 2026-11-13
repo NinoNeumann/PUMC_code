@@ -1,0 +1,4 @@
+# Optional cache export only: Python 3.12; install project-locally.
+# Production CACox pipeline does not require these packages or the parser patch.
+rdata==1.1.0
+xarray==2025.6.1

@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "cacox-original-head-study"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "torch", "scipy", "matplotlib"]
+[project.scripts]
+cacox-original-head-study = "cacox_original_head_study.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]

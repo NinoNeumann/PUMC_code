@@ -1,0 +1,2061 @@
+{
+  "source_manifests": {
+    "DATA_MANIFEST.json": "C:\\Users\\NinoNeumann\\CodexResults\\main_analysis_20261027v2_10x5x20_20261108\\results\\cacox_main\\DATA_MANIFEST.json",
+    "I20_MANIFEST.json": "C:\\Users\\NinoNeumann\\CodexResults\\main_analysis_20261027v2_10x5x20_20261108\\results\\cacox_main\\I20_MANIFEST.json",
+    "E_SELECTED_MANIFEST.json": "C:\\Users\\NinoNeumann\\CodexResults\\main_analysis_20261027v2_10x5x20_20261108\\results\\cacox_main\\E_SELECTED_MANIFEST.json",
+    "RCS_MANIFEST.json": "C:\\Users\\NinoNeumann\\CodexResults\\main_analysis_20261027v2_10x5x20_20261108\\results\\rcs_ridge_main\\MANIFEST.json"
+  },
+  "source_entries": 553,
+  "matched_to_copied_code": 41,
+  "unmatched_entries_are_historical_input_or_result_references": [
+    {
+      "phase": "DATA_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\input\\config.rds"
+    },
+    {
+      "phase": "DATA_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\input\\raw_typed.rds"
+    },
+    {
+      "phase": "DATA_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\input\\20261027v2.xlsx"
+    },
+    {
+      "phase": "DATA_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\input\\20261027v2_text.csv"
+    },
+    {
+      "phase": "DATA_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\input\\outer_assignments.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\DATA_MANIFEST.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\ADAPTIVE_MICE_QC_MANIFEST.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\DATA_COMPLETE.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\input\\raw_typed.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\input\\20261027v2.xlsx"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold01\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold01\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold01\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold01\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold01\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold01\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold01\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold01\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold01\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold01\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold02\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold02\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold02\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold02\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold02\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold02\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold02\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold02\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold02\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold02\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold03\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold03\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold03\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold03\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold03\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold03\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold03\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold03\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold03\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold03\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold04\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold04\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold04\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold04\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold04\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold04\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold04\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold04\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold04\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold04\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold05\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold05\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold05\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold05\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold05\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold05\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold05\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold05\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold05\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat01_fold05\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold01\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold01\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold01\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold01\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold01\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold01\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold01\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold01\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold01\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold01\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold02\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold02\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold02\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold02\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold02\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold02\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold02\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold02\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold02\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold02\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold03\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold03\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold03\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold03\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold03\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold03\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold03\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold03\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold03\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold03\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold04\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold04\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold04\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold04\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold04\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold04\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold04\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold04\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold04\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold04\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold05\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold05\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold05\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold05\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold05\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold05\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold05\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold05\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold05\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat02_fold05\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold01\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold01\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold01\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold01\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold01\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold01\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold01\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold01\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold01\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold01\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold02\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold02\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold02\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold02\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold02\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold02\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold02\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold02\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold02\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold02\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold03\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold03\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold03\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold03\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold03\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold03\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold03\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold03\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold03\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold03\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold04\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold04\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold04\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold04\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold04\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold04\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold04\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold04\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold04\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold04\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold05\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold05\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold05\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold05\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold05\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold05\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold05\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold05\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold05\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat03_fold05\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold01\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold01\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold01\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold01\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold01\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold01\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold01\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold01\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold01\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold01\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold02\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold02\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold02\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold02\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold02\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold02\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold02\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold02\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold02\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold02\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold03\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold03\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold03\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold03\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold03\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold03\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold03\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold03\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold03\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold03\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold04\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold04\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold04\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold04\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold04\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold04\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold04\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold04\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold04\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold04\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold05\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold05\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold05\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold05\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold05\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold05\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold05\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold05\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold05\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat04_fold05\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold01\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold01\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold01\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold01\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold01\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold01\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold01\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold01\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold01\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold01\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold02\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold02\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold02\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold02\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold02\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold02\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold02\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold02\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold02\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold02\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold03\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold03\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold03\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold03\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold03\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold03\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold03\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold03\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold03\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold03\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold04\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold04\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold04\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold04\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold04\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold04\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold04\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold04\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold04\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold04\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold05\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold05\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold05\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold05\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold05\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold05\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold05\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold05\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold05\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat05_fold05\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold01\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold01\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold01\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold01\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold01\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold01\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold01\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold01\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold01\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold01\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold02\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold02\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold02\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold02\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold02\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold02\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold02\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold02\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold02\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold02\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold03\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold03\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold03\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold03\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold03\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold03\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold03\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold03\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold03\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold03\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold04\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold04\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold04\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold04\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold04\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold04\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold04\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold04\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold04\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold04\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold05\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold05\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold05\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold05\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold05\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold05\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold05\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold05\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold05\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat06_fold05\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold01\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold01\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold01\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold01\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold01\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold01\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold01\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold01\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold01\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold01\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold02\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold02\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold02\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold02\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold02\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold02\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold02\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold02\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold02\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold02\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold03\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold03\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold03\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold03\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold03\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold03\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold03\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold03\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold03\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold03\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold04\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold04\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold04\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold04\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold04\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold04\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold04\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold04\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold04\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold04\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold05\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold05\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold05\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold05\\MICE_VALIDATION.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold05\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold05\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold05\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold05\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold05\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat07_fold05\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold01\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold01\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold01\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold01\\MICE_VALIDATION_ADAPTIVE.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold01\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold01\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold01\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold01\\inner_02\\adaptive\\iter_080\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold01\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold01\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold01\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold02\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold02\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold02\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold02\\MICE_VALIDATION_ADAPTIVE.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold02\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold02\\outer\\adaptive\\iter_080\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold02\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold02\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold02\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold02\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold02\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold03\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold03\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold03\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold03\\MICE_VALIDATION_ADAPTIVE.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold03\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold03\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold03\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold03\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold03\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold03\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold04\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold04\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold04\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold04\\MICE_VALIDATION_ADAPTIVE.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold04\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold04\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold04\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold04\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold04\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold04\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold05\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold05\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold05\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold05\\MICE_VALIDATION_ADAPTIVE.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold05\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold05\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold05\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold05\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold05\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat08_fold05\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold01\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold01\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold01\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold01\\MICE_VALIDATION_ADAPTIVE.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold01\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold01\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold01\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold01\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold01\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold01\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold02\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold02\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold02\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold02\\MICE_VALIDATION_ADAPTIVE.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold02\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold02\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold02\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold02\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold02\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold02\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold03\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold03\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold03\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold03\\MICE_VALIDATION_ADAPTIVE.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold03\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold03\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold03\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold03\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold03\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold03\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold04\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold04\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold04\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold04\\MICE_VALIDATION_ADAPTIVE.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold04\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold04\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold04\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold04\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold04\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold04\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold05\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold05\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold05\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold05\\MICE_VALIDATION_ADAPTIVE.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold05\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold05\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold05\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold05\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold05\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat09_fold05\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold01\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold01\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold01\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold01\\MICE_VALIDATION_ADAPTIVE.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold01\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold01\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold01\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold01\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold01\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold01\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold02\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold02\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold02\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold02\\MICE_VALIDATION_ADAPTIVE.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold02\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold02\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold02\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold02\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold02\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold02\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold03\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold03\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold03\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold03\\MICE_VALIDATION_ADAPTIVE.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold03\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold03\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold03\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold03\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold03\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold03\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold04\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold04\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold04\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold04\\MICE_VALIDATION_ADAPTIVE.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold04\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold04\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold04\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold04\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold04\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold04\\inner_05\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold05\\prepared.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold05\\selected_variables.txt"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold05\\selection_frequency_29variables.csv"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold05\\MICE_VALIDATION_ADAPTIVE.json"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold05\\outer\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold05\\inner_01\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold05\\inner_02\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold05\\inner_03\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold05\\inner_04\\imputation.rds"
+    },
+    {
+      "phase": "RCS_MANIFEST.json",
+      "path": "results\\cox_es_rcs_newdata_10x5\\20261104_v1\\repeat10_fold05\\inner_05\\imputation.rds"
+    }
+  ],
+  "copied_files": 151
+}
